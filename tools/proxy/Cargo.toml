@@ -1,0 +1,32 @@
+[package]
+name = "proxy"
+version = "0.1.0"
+authors = ["Goodcode <15660898+goodcodedev@users.noreply.github.com>"]
+edition = "2018"
+workspace = ".."
+
+[dependencies]
+env_logger = "0.7"
+actix-rt = "0.2"
+awc = "0.2"
+actix-web = { version="1.0", features=["ssl"] }
+actix-http = "0.2"
+actix-cors = "0.1"
+actix-multipart = "0.1"
+actix-files = "0.1"
+actix-service = "0.4"
+mime = "0.3"
+mime_guess = "2.0"
+futures = "0.1"
+serde = "1.0"
+serde_json = "1.0"
+serde_urlencoded = "0.6"
+serde_xml = "0.9"
+chrono = "0.4"
+tantivy = "0.10"
+clap = "2.33.0"
+openssl = { version="0.10" }
+acme-lib = "0.5"
+#acme-lib = { path = "../vendor/acme-lib" }
+actix = "0.8"
+indexmap = {version = "1.3", features = ["serde-1"]}

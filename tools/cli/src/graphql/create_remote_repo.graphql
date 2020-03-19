@@ -1,0 +1,11 @@
+mutation CreateRemoteRepo($name: String!, $ownerId: ID!) {
+    createRepository(input: {
+        name: $name,
+        ownerId: $ownerId,
+        visibility: PRIVATE
+    }) {
+        repository {
+            id
+        }
+    }
+}

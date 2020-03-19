@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid rgb(143, 143, 143);
+}
+th, td {
+  padding: 10px;
+}
+th {
+  background-color: #eee;
+}

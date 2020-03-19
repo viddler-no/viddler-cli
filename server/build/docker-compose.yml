@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  build:
+    build: .
+    volumes:
+      - /var/www
+      - "./output:/output"
+    restart: always
+    ports:
+      - "9857:22"
